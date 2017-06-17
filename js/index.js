@@ -9,18 +9,18 @@ shortbreak = document.getElementById('shortbreak');
 
 
 shortbreak.onclick = function () {
-    count = (10 * 30 * 10)+5;
-    playing = false;
+    count = 10 * 3//(10 * 30 * 10)+5;
+
 };
 
 longbreak.onclick = function () {
     count = (10 * 90 * 20)+5;
-    playing = false;
 
 };
 
 
 playOrPause.onclick = function () {
+    console.log(playing)
         if (playing) {
             playing = false;
             console.log("Pause!");
@@ -43,7 +43,7 @@ playOrPause.onclick = function () {
 };
 
 resetClock.onclick = function () {
-    if (playing) {
+    if (!playing) {
         playing = false;
         playOrPause.innerHTML = "Start Clock";
         shortbreak.removeAttribute("disabled");
@@ -64,9 +64,7 @@ function countdown() {
         playOrPause.removeAttribute("disabled");
         resetClock.removeAttribute("disabled");
         playOrPause.innerHTML = "Start Clock";
-        //count = start_time;
         document.getElementById('time_left').innerHTML = "25:00"
-        //playing = true;
         beep();
 
     } else if (playing) {

@@ -10,6 +10,7 @@
     top: 0px;
     z-index: -1;
   box-shadow: 0 0 5px 10px #dddddd;
+
 }
 .leaf{
   width: 100px;
@@ -18,8 +19,7 @@
     left: 0px;
     top: 0px;
     z-index: -1;
- 
-  
+
 }
 
 .stalk{
@@ -30,6 +30,7 @@
    border-radius: 500px;
   background-color: green;
   margin:55px;
+
 
 }
 
@@ -47,7 +48,7 @@ body
   width: 100px;
   height: 100px;
   padding: 50px 30px 50px 15%;
-/*   border: 2px solid red; */
+
 }
 
 
@@ -57,14 +58,16 @@ p{
   font-size: 70px;
   color: white;
   z-index: 1;
-  
+
 }
 .button {
-  border-radius: 100%;
-  padding: 5px;
+  border-radius: 50%;
+  margin: 3px;
+  height: 50px;
+  width: 50px;
   background-color:  #B21B00;
   color: white;
-  margin: 5px;
+  font-size:12px;
 
 }
 .button:focus {
@@ -74,48 +77,11 @@ p{
 
 
 
+#myButtons{
+  position: relative;
+  top: -80px;
+  padding: 8px;
 
-.resetClock{
-  float:left;
-  margin: -45px 10px 60px 90px;
-  border-radius: 5px;
-  
-}
-.playOrPause{
-  float:left;
-  margin: -92px 0px 0px 190px;
-    height:200px;
-    width:200px;
-  border-radius:0px;
-
-}
-
-.longbreak{
-  float: left;
-  
-  padding: 20px 0;
-  text-align: center;
-    margin: -50px 0 10px 10px;
-}
-.shortbreak{
- 
-    float: left;
-    margin: 1.858736059%;
-  padding: 20px 0;
-  text-align: center;
- 
-/*     margin: 0 0 10px 10px; */
-
-
-
-}
-#breaks{
-  margin-left: -50px;
-  padding:10px;
+  margin-left: 45px;
   display: flex;
-  
-}
-#controllers{
-  margin-top: -70px;
-  margin-left: 80px;
 }
