@@ -10,7 +10,7 @@
   
   
   * Issues to be addressed in the future:
-    Chrome/Firefox: setTimeout() is suspended in background tabs. Unfortunately atm, the timer stops when you switch tabs :(. 
+      * Chrome/Firefox: setTimeout() is suspended in background tabs. Unfortunately atm, the timer stops when you switch tabs :(. 
 
 
 
