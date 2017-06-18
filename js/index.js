@@ -76,10 +76,10 @@ function myFunction() {
 
         } else if (playing) {
             console.log("ok")
-            setTimeout(countdown, 250);
+            setTimeout(countdown, 200);
             count--;
         } else {
-            setTimeout(countdown, 250);
+            setTimeout(countdown, 200);
         }
     }
 
