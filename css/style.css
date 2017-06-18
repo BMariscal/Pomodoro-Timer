@@ -30,6 +30,8 @@
    border-radius: 500px;
   background-color: green;
   margin:55px;
+  -webkit-box-shadow: 5px 0px 1px -1px #034203;
+          box-shadow: 5px 0px 1px -1px #034203;
 
 
 }
