@@ -19,9 +19,6 @@ function myFunction() {
 
     shortbreak.onclick = function () {
         count = (10 * 30 * 10)+5;
-
-
-
     };
 
     longbreak.onclick = function () {
@@ -37,7 +34,6 @@ function myFunction() {
                 console.log("Pause!");
                 playOrPause.innerHTML = "Start Clock";
 
-
             }  else if (!playing) {
                 playing = true;
                 console.log("Play!");
@@ -50,14 +46,13 @@ function myFunction() {
     };
 
     resetClock.onclick = function () {
-        if (!playing) {
+        if (!playing || playing) {
             playing = false;
             playOrPause.innerHTML = "Start Clock";
             count = start_time;
             showTime()
         }
         console.log("Reset Timer!");
-        count = start_time;
     };
 
     function reload() {
