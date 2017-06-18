@@ -7,5 +7,11 @@
       * CSS tomato shaped container to hold the timer buttons and the displayed time.
       * Alarm that goes off when timer is 00:00. Uses a base64 encoded Data URI as source.
   * [More on the Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)
+  
+  
+  * Issues to be addressed in the future:
+    Chrome/Firefox: setTimeout() is suspended in background tabs. Unfortunately atm, the timer stops when you switch tabs :(. 
+
+
 
 
