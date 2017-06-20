@@ -81,9 +81,6 @@ function myFunction() {
     countdown()
 
 
-
-
-
     function zeroes(Time) {
         return (Time < 10) ? "0" + Time : +Time;
     }
