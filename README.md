@@ -10,8 +10,8 @@
   * [More on the Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)
   
   
-  * Issues to be addressed in the future:
-      * Chrome/Firefox: setTimeout() is suspended in background tabs. Unfortunately atm, the timer stops when you switch tabs :(. 
+  * Issues to be addressed:
+      * Chrome and Firefox throttle setTimeout/setInterval in inactive tabs. Timer stops when you switch tabs. 
 
 
 
