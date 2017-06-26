@@ -44,13 +44,13 @@ function myFunction() {
     };
 
     resetClock.onclick = function () {
-        if (!playing || playing) {
+        
             playing = false;
             playOrPause.innerHTML = "Start Clock";
             count = start_time;
             showTime()
-        }
-        console.log("Reset Timer!");
+     
+            console.log("Reset Timer!");
     };
 
     function reload() {
