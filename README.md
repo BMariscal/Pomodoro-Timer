@@ -11,7 +11,7 @@
   
   
   * Issues to be addressed:
-      * Chrome and Firefox throttle setTimeout/setInterval in inactive tabs. Timer stops when you switch tabs. 
+      * Chrome and Firefox throttle setTimeout/setInterval in inactive tabs. This causes timer to slow down when you switch tabs. 
 
 
 
